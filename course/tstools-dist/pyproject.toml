@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"] # setuptools and wheel are necessary for the build
+
+[project]
+name = "tstools"
+version = "0.1"
+description = "A package to analyse timeseries"
+authors = [
+    {name = "Spam Eggs", email = "spam.eggs@email.com"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = ["numpy", "matplotlib", "scipy"]
+
+[project.urls]
+Source = "example.com"
+
+[project.scripts] # Define scripts here if you have any
+
+[project.optional-dependencies] # Define optional dependencies here if you have any

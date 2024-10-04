@@ -7,3 +7,4 @@ dist/
 hotwire-data/raw_data/datajet.h5
 notes.*
 python-course-venv/
+venv/
